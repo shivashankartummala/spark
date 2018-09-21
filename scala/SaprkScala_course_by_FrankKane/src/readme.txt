@@ -21,3 +21,8 @@ MovieSimilarities1M.scala : shows the suage of spark execution on a EMR cluster 
 SparkSQL.scala  : shows the usage of spark sql , define schema , create table/view and query the dataset using sql.
 DataFrames.scala  : shows the usage of dataframe methods for querying the dataset/dataframe. 
 PopularMoviesDataSets.scala : shows the usage of datframes/datasets for sorting, groupby operations on the dataset.
+
+
+LinearRegression.scala : shows the usage of MLlib , demonstrates Linear Regression using Stocastic Gradient Descent technique.
+
+LinearRegressionDataFrame.scala : 
