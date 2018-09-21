@@ -17,3 +17,7 @@ MostPopularSuperhero.scala : shows usage of scala options. Also demonstrates joi
 DegreesOfSeparation.scala : shows the usage of accumulator. Also demonstrates the implementation BFS alogorithm in spark code.
 MovieSimilarities.scala : shows item based collaborative clustering to recommend movies similar to given movie that is passed as commandline agrument.
 MovieSimilarities1M.scala : shows the suage of spark execution on a EMR cluster and it leverages partitioning an RDD to optimize parallelization to make use of the cluster resources.
+
+SparkSQL.scala  : shows the usage of spark sql , define schema , create table/view and query the dataset using sql.
+DataFrames.scala  : shows the usage of dataframe methods for querying the dataset/dataframe. 
+PopularMoviesDataSets.scala : shows the usage of datframes/datasets for sorting, groupby operations on the dataset.
