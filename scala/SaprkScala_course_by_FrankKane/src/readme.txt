@@ -13,7 +13,7 @@ WordCountBetter.scala    : shows regular expression in text processing to improv
 
 WordCountBetterSorted.scala : shows sorting of the results by value, by using SortByKey method, after flipiing key, value
 
-CustomerTotal.scala      :  
+CustomerTotal.scala      :  shows the basic metheods to parse inout data, create RDD and mapping the input and reducing it to get the required output.
 
 CustomerTotalSorted.scala : shows sorting of the results.
 
@@ -35,3 +35,5 @@ PopularMoviesDataSets.scala : shows the usage of datframes/datasets for sorting,
 LinearRegression.scala : shows the usage of MLlib , demonstrates Linear Regression using Stocastic Gradient Descent technique.
 
 LinearRegressionDataFrame.scala : shows the usage of spark machine learning using dataframes/datasets. also demonstartes splitting the input data into training dataset and testing dataset to run the machine learning model. This uses org.apache.spark.ml package which is a new alternative to org.apache.spark.mllib, that it supports the datasets/Dataframes API.
+
+GraphX.scala : shows the usage of GraphX library and pregel API to process data to analyze the data that cane be represented as graph [vertices, Edges]
