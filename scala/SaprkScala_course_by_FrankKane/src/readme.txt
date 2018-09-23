@@ -37,5 +37,7 @@ LinearRegression.scala : shows the usage of MLlib , demonstrates Linear Regressi
 LinearRegressionDataFrame.scala : shows the usage of spark machine learning using dataframes/datasets. also demonstartes splitting the input data into training dataset and testing dataset to run the machine learning model. This uses org.apache.spark.ml package which is a new alternative to org.apache.spark.mllib, that it supports the datasets/Dataframes API.
 
 PopularHashtags.scala : shows usage of spark streaming API to stream data from twitter and process it in a continous sliding window.
+                         We need the jars dstream-twitter_2.11-2.3.0-SNAPSHOT, twitter4j-core-4.0.4.jar, twitter4j-stream-4.0.4.jar to  
+                         be added to buildpath for streaming API nad twitter API that we use in this program.
 
 GraphX.scala : shows the usage of GraphX library and pregel API to process data to analyze the data that cane be represented as graph [vertices, Edges]
