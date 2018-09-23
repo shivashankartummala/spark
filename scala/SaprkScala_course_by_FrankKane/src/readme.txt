@@ -1,5 +1,5 @@
 #spark code files in scala [Please read the below notes before trying to run, examine the code]
-
+### These are from spark scala course by Frank Kane . []
 RatingsCounter.scala
 MinTemperatures.scala
 MaxTemperatures.scala
@@ -41,3 +41,10 @@ PopularHashtags.scala : shows usage of spark streaming API to stream data from t
                          be added to buildpath for streaming API nad twitter API that we use in this program.
 
 GraphX.scala : shows the usage of GraphX library and pregel API to process data to analyze the data that cane be represented as graph [vertices, Edges]
+
+######## These are from spark streaming course by Frank Kane   [https://www.udemy.com/taming-big-data-with-spark-streaming-hands-on/]
+PrintTweets.scala : This need Utilities.scala. This shows the usage of steraming API to fetch tweets from a twitter app.
+                      We need the jars dstream-twitter_2.11-2.3.0-SNAPSHOT, twitter4j-core-4.0.4.jar, twitter4j-stream-4.0.4.jar to  
+                         be added to buildpath for streaming API nad twitter API that we use in this program.
+                         
+                         
