@@ -1,0 +1,28 @@
+using spark generate the below reports on NYSE stocx data
+
+Nyse stock dataset
+
+1. show the monthly moving average for all the stocks.
+
+2. show the monthly low, high , avegrage for each stock.
+
+3. show the top 10 performing stocks(with hieghest percentage growth in a given day.
+     percentage growth in a day = ((closing price of today - closingprice of previousday)/closingprice of previousday)*100     
+
+4. show the worst 10 performing stocks(with least/neagative percentage growth in a given day.
+     percentage growth in a day = ((closing price of today - closingprice of previousday)/closingprice of previousday)*100 	 
+
+5. show the top 10 performing stocks(with highest percentage growth in a month) for each month in last one year. 
+    percentage growth in a month = ((closing price on last day - closingprice on firstday)/closing price on last day)*100 
+
+6. show the top 10 worst performing stocks(with least percentage growth in a month) for each month in last one year. 
+	percentage growth in a month = ((closing price on last day - closingprice on firstday)/closing price on last day)*100 
+	
+7. show the top5 10 volatile stocks(with huge intraday percentage fluctuations) for given date.
+     intraday percentage fluctuation = ((dayhigh - daylow)/(previousclose)) *100
+            
+8. show the top5 10 volatile stocks(with huge intraday percentage fluctuations) for each month in a year.	
+
+9. show the top 10 consitently growing stocks in last one month( a stock that has 5% intraday growth 3 or more times in month and does not have a 5% intraday loss in month and overall monthly growth more than 10% ). 
+ 
+10. 9. show the top 10 consitently declining stocks in last one month( a stock that has 5% intray loss 3 or more times in month and does not have a 5% intraday gain in that month and overall monthly loss more than 10% ). 
