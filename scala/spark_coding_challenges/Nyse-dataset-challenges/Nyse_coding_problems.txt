@@ -1,4 +1,4 @@
-using spark generate the below reports on NYSE stocx data
+using spark generate the below reports on NYSE stocx data. write the output to a text/csv file in output directory.
 
 ###########  Nyse stock dataset ################
 Input Datasets:
