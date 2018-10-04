@@ -1,6 +1,16 @@
 using spark generate the below reports on NYSE stocx data
 
-Nyse stock dataset
+###########  Nyse stock dataset ################
+Input Datasets:
+
+The NYSE Daily Prices File has the following colums separated by commas(CSV File):
+-    stock_symbol, stock_price_open, stock_price_high, stock_price_low, stock_price_close,date
+Sample Record: A,55.0,55.33,54.805,54.83,2017-04-26
+ The inpur directory here has the data files for the year 2015, 2016, 2017.
+ This data is enough for solving the challenges.
+
+The full dataset is available at https://www.kaggle.com/cwallenpoole/nyse-from-1105-to-11618#nyse--2005-2018.zip
+######################################################################
 
 1. show the monthly moving average for all the stocks.
 
